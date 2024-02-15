@@ -46,6 +46,10 @@
     box-sizing: border-box;
     padding: 0px 10px;
 }
+.white{
+    width: 100%;
+    height: 100%;
+}
 /*---------------------Шапка------------------------*/
 .top{
     background-image:url(images/bgimg.jpg);
@@ -173,6 +177,18 @@ a.about-link{
     margin-top:47px;
     border-radius: 35px;
 }
+@media screen and (max-width:765px){
+    .about{
+        background-position-x: -120px;
+        background-size: auto 100%;
+        background-color: rgba(255,255,255,0.5);
+    }
+    .white{
+        background-color: rgba(255,255,255,0.5);
+    }
+
+}
+
 /*-------Services-------------*/
 .services{
     background-image: url(images/bgservices.png);
