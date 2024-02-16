@@ -181,10 +181,10 @@ a.about-link{
     .about{
         background-position-x: -120px;
         background-size: auto 100%;
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.8);
     }
     .white{
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.8);
     }
 
 }
@@ -262,6 +262,12 @@ a.about-link{
     line-height:32px;
     padding-left: 30px;
     padding-right: 33px;
+}
+@media screen and (max-width:765px){
+    .page{
+        height: auto;
+        padding-bottom: 35px;
+    }
 }
 /*------------testimonials---------------*/
 .testimonials{
